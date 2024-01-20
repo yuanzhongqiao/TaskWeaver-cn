@@ -11,42 +11,54 @@
 
 </div>
 
-TaskWeaver is A **code-first** agent framework for seamlessly planning and executing data analytics tasks. This innovative framework interprets user requests through coded snippets and efficiently coordinates a variety of plugins in the form of functions to execute data analytics tasks in a stateful manner.
-
-
-<h1 align="center">
-    <img src="./.asset/taskweaver_arch.png"/> 
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 align="center" tabindex="-1" dir="auto"><a id="user-content------taskweaver" class="anchor" aria-hidden="true" tabindex="-1" href="#-----taskweaver"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <a target="_blank" rel="noopener noreferrer" href="/microsoft/TaskWeaver/blob/main/.asset/logo.color.svg"><img src="/microsoft/TaskWeaver/raw/main/.asset/logo.color.svg" width="45" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任务编织器
+</font></font></h1>
+<div align="center" dir="auto">
+<p dir="auto"><a href="https://discord.gg/Z56MXmZgMb" rel="nofollow"><img src="https://camo.githubusercontent.com/cba2007e2472c7c1c6993bb55fd64a1abf5a2e665d3e43fc495bb5a57e346572/68747470733a2f2f646362616467652e76657263656c2e6170702f6170692f7365727665722f5a35364d586d5a674d623f7374796c653d666c6174" alt="不和谐 关注" data-canonical-src="https://dcbadge.vercel.app/api/server/Z56MXmZgMb?style=flat" style="max-width: 100%;"></a> &ensp;
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/27bb2b00c3750235d095eb7d9f13025fe9485e7ffc6dcd6952771b2873005209/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f266c6f676f3d707974686f6e266c6f676f436f6c6f723d77686974652d626c7565266c6162656c3d332e3130253230253743253230332e3131"><img src="https://camo.githubusercontent.com/27bb2b00c3750235d095eb7d9f13025fe9485e7ffc6dcd6952771b2873005209/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3337373641423f266c6f676f3d707974686f6e266c6f676f436f6c6f723d77686974652d626c7565266c6162656c3d332e3130253230253743253230332e3131" alt="Python版本" data-canonical-src="https://img.shields.io/badge/Python-3776AB?&amp;logo=python&amp;logoColor=white-blue&amp;label=3.10%20%7C%203.11" style="max-width: 100%;"></a>&ensp;
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://camo.githubusercontent.com/a4426cbe5c21edb002526331c7a8fbfa089e84a550567b02a0d829a98b136ad0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d79656c6c6f772e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-MIT-yellow.svg" style="max-width: 100%;"></a>&ensp;
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8531ea80bc5e0ac96a01c1f2e18f168ca543ffd837522065bcf93f238774d4b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c6174"><img src="https://camo.githubusercontent.com/8531ea80bc5e0ac96a01c1f2e18f168ca543ffd837522065bcf93f238774d4b8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c6174" alt="欢迎" data-canonical-src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" style="max-width: 100%;"></a></p>
+</div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TaskWeaver 是一个</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码优先的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代理框架，用于无缝规划和执行数据分析任务。</font><font style="vertical-align: inherit;">这种创新框架通过编码片段解释用户请求，并以函数的形式有效协调各种插件，以有状态的方式执行数据分析任务。</font></font></p>
+<h1 align="center" tabindex="-1" dir="auto"><a id="user-content------" class="anchor" aria-hidden="true" tabindex="-1" href="#-----"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <a target="_blank" rel="noopener noreferrer" href="/microsoft/TaskWeaver/blob/main/.asset/taskweaver_arch.png"><img src="/microsoft/TaskWeaver/raw/main/.asset/taskweaver_arch.png" style="max-width: 100%;"></a> 
 </h1>
+<h2 tabindex="-1" dir="auto"><a id="user-content--news" class="anchor" aria-hidden="true" tabindex="-1" href="#-news"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🆕 新闻</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📅2024-01-17：TaskWeaver 现在有一个插件</font></font><code>vision_web_explorer</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可以打开网络浏览器并浏览网站。🌐</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📅2024-01-15：TaskWeaver 现在在 UI 和命令行中支持 Streaming♒。✌️</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📅2024-01-01：欢迎加入 TaskWeaver </font></font><a href="https://discord.gg/Z56MXmZgMb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📅2023-12-21：TaskWeaver 现在支持多种 LLM，例如 LiteLLM、Ollama、Gemini 和 QWen🎈。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📅2023-12-21：TaskWeaver 网站现已</font></font><a href="https://microsoft.github.io/TaskWeaver/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推出</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，提供更多文档。</font></font></li>
+</ul>
 
 
-## 🆕 News
-- 📅2024-01-17: TaskWeaver now has a plugin `vision_web_explorer` that can open a web browser and explore websites.🌐
-- 📅2024-01-15: TaskWeaver now supports Streaming♒ in both UI and command line.✌️
-- 📅2024-01-01: Welcome join TaskWeaver [Discord](https://discord.gg/Z56MXmZgMb).
-- 📅2023-12-21: TaskWeaver now supports a number of LLMs, such as LiteLLM, Ollama, Gemini, and QWen🎈.
-- 📅2023-12-21: TaskWeaver Website is now [available](https://microsoft.github.io/TaskWeaver/) with more documentations.
-<!-- - 📅2023-12-12: A simple UI demo is available in playground/UI folder, try it [here](https://microsoft.github.io/TaskWeaver/docs/usage/webui)! -->
-<!-- - [2023-11-30] TaskWeaver is released on GitHub🎈.  -->
+<h2 tabindex="-1" dir="auto"><a id="user-content--highlights" class="anchor" aria-hidden="true" tabindex="-1" href="#-highlights"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💥 亮点</font></font></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">丰富的数据结构</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 允许您在 Python 中使用丰富的数据结构，例如 DataFrame，而不是处理字符串。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定制算法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 允许您将自己的算法封装到插件中并编排它们。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">合并特定领域的知识</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 旨在轻松合并特定领域的知识以提高可靠性。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有状态执行</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 旨在支持生成代码的有状态执行，以确保一致且流畅的用户体验。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码验证</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 旨在在执行之前验证生成的代码。</font><font style="vertical-align: inherit;">它可以检测生成的代码中的潜在问题并提供修复建议。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">易于使用</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 易于使用，带有示例插件、示例和教程，可帮助您入门。</font><font style="vertical-align: inherit;">TaskWeaver 提供开箱体验，允许用户在安装后立即运行它。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">易于调试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 易于调试，提供详细且透明的日志，帮助您了解整个过程，包括 LLM 提示、代码生成和执行过程。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全考虑</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 支持基本的会话管理，以将不同用户的数据分开。</font><font style="vertical-align: inherit;">代码执行被分成不同的进程以避免相互干扰。</font></font></li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">易于扩展</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- TaskWeaver 易于扩展，可以使用多个代理作为插件来完成更复杂的任务。</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content--quick-start" class="anchor" aria-hidden="true" tabindex="-1" href="#-quick-start"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✨ 快速入门</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-️-step-1-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#️-step-1-installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠️第一步：安装</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TaskWeaver 需要</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python &gt;= 3.10</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">可以通过运行以下命令来安装它：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> [optional to create conda environment]</span>
+<span class="pl-c"><span class="pl-c">#</span> conda create -n taskweaver python=3.10</span>
+<span class="pl-c"><span class="pl-c">#</span> conda activate taskweaver</span>
 
-
-## 💥 Highlights
-
-- [x] **Rich data structure** - TaskWeaver allows you to work with rich data structures in Python, such as DataFrames, instead of dealing with strings.
-- [x] **Customized algorithms** - TaskWeaver allows you to encapsulate your own algorithms into plugins and orchestrate them.
-- [x] **Incorporating domain-specific knowledge** - TaskWeaver is designed to incorporat domain-specific knowledge easily to improve the reliability.
-- [x] **Stateful execution** - TaskWeaver is designed to support stateful execution of the generated code to ensure consistent and smooth user experience.
-- [x] **Code verification** - TaskWeaver is designed to verify the generated code before execution. It can detect potential issues in the generated code and provide suggestions to fix them.
-- [x] **Easy to use** - TaskWeaver is easy to use with sample plugins, examples and tutorials to help you get started. TaskWeaver offers an open-box experience, allowing users to run it immediately after installation.
-- [x] **Easy to debug** - TaskWeaver is easy to debug with detailed and transparent logs to help you understand the entire process, including LLM prompts, the code generation, and execution process.
-- [x] **Security consideration** - TaskWeaver supports a basic session management to keep different users' data separate. The code execution is separated into different processes to avoid mutal interference.
-- [x] **Easy extension** - TaskWeaver is easy to extend to accomplish more complex tasks with multiple agents as the plugins.
-
-## ✨ Quick Start
-
-### 🛠️ Step 1: Installation
-TaskWeaver requires **Python >= 3.10**. It can be installed by running the following command:
-```bash
-# [optional to create conda environment]
+<span class="pl-c"><span class="pl-c">#</span> clone the repository</span>
+git clone https://github.com/microsoft/TaskWeaver.git
+<span class="pl-c1">cd</span> TaskWeaver
+<span class="pl-c"><span class="pl-c">#</span> install the requirements</span>
+pip install -r requirements.txt</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# [optional to create conda environment]
 # conda create -n taskweaver python=3.10
 # conda activate taskweaver
 
@@ -54,35 +66,61 @@ TaskWeaver requires **Python >= 3.10**. It can be installed by running the follo
 git clone https://github.com/microsoft/TaskWeaver.git
 cd TaskWeaver
 # install the requirements
-pip install -r requirements.txt
-```
-
-
-### 🖊️ Step 2: Configure the LLMs
-Before running TaskWeaver, you need to provide your LLM configurations. Taking OpenAI as an example, you can configure `taskweaver_config.json` file as follows. 
-
-#### OpenAI
-```json
-{
-"llm.api_key": "the api key",
-"llm.model": "the model name, e.g., gpt-4"
-}
-```
-
-💡 TaskWeaver also supports other LLMs and advanced configurations, please check the [documents](https://microsoft.github.io/TaskWeaver/docs/overview) for more details. 
-
-### 🚩 Step 3: Start TaskWeaver
-
-#### ⌨️ Command Line (CLI)
-```bash
-# assume you are in the cloned TaskWeaver folder
-python -m taskweaver -p ./project/
-```
-This will start the TaskWeaver process and you can interact with it through the command line interface. 
-If everything goes well, you will see the following prompt:
-
-```
+pip install -r requirements.txt" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-️-step-2-configure-the-llms" class="anchor" aria-hidden="true" tabindex="-1" href="#️-step-2-configure-the-llms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🖊️ 第 2 步：配置 LLM</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在运行 TaskWeaver 之前，您需要提供 LLM 配置。</font><font style="vertical-align: inherit;">以OpenAI为例，您可以</font></font><code>taskweaver_config.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按如下方式配置文件。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-openai" class="anchor" aria-hidden="true" tabindex="-1" href="#openai"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放人工智能</font></font></h4>
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto"><pre>{
+<span class="pl-ent">"llm.api_key"</span>: <span class="pl-s"><span class="pl-pds">"</span>the api key<span class="pl-pds">"</span></span>,
+<span class="pl-ent">"llm.model"</span>: <span class="pl-s"><span class="pl-pds">"</span>the model name, e.g., gpt-4<span class="pl-pds">"</span></span>
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="{
+&quot;llm.api_key&quot;: &quot;the api key&quot;,
+&quot;llm.model&quot;: &quot;the model name, e.g., gpt-4&quot;
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💡 TaskWeaver 还支持其他 LLM 和高级配置，请查看</font></font><a href="https://microsoft.github.io/TaskWeaver/docs/overview" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多详细信息。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content--step-3-start-taskweaver" class="anchor" aria-hidden="true" tabindex="-1" href="#-step-3-start-taskweaver"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚩 步骤 3：启动 TaskWeaver</font></font></h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-️-command-line-cli" class="anchor" aria-hidden="true" tabindex="-1" href="#️-command-line-cli"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⌨️ 命令行 (CLI)</font></font></h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> assume you are in the cloned TaskWeaver folder</span>
+python -m taskweaver -p ./project/</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# assume you are in the cloned TaskWeaver folder
+python -m taskweaver -p ./project/" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这将启动 TaskWeaver 进程，您可以通过命令行界面与其交互。</font><font style="vertical-align: inherit;">如果一切顺利，您将看到以下提示：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>=========================================================
+ _____         _     _       __
+|_   _|_ _ ___| | _ | |     / /__  ____ __   _____  _____
+  | |/ _` / __| |/ /| | /| / / _ \/ __ `/ | / / _ \/ ___/
+  | | (_| \__ \   &lt; | |/ |/ /  __/ /_/ /| |/ /  __/ /
+  |_|\__,_|___/_|\_\|__/|__/\___/\__,_/ |___/\___/_/
 =========================================================
+TaskWeaver: I am TaskWeaver, an AI assistant. To get started, could you please enter your request?
+Human: ___
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="=========================================================
  _____         _     _       __
 |_   _|_ _ ___| | _ | |     / /__  ____ __   _____  _____
   | |/ _` / __| |/ /| | /| / / _ \/ __ `/ | / / _ \/ ___/
@@ -90,94 +128,140 @@ If everything goes well, you will see the following prompt:
   |_|\__,_|___/_|\_\|__/|__/\___/\__,_/ |___/\___/_/
 =========================================================
 TaskWeaver: I am TaskWeaver, an AI assistant. To get started, could you please enter your request?
-Human: ___
-```
+Human: ___" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h4 tabindex="-1" dir="auto"><a id="user-content-or--web-ui" class="anchor" aria-hidden="true" tabindex="-1" href="#or--web-ui"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或 💻 网页用户界面</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TaskWeaver 还支持 WebUI 进行演示，请参阅</font></font><a href="https://microsoft.github.io/TaskWeaver/docs/usage/webui" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web UI 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多详细信息。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-or--import-as-a-library" class="anchor" aria-hidden="true" tabindex="-1" href="#or--import-as-a-library"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或 📋 作为库导入</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TaskWeaver 可以作为库导入以与您现有的项目集成，更多信息可以在</font></font><a href="https://microsoft.github.io/TaskWeaver/docs/usage/library" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档中找到</font></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content--documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📖 文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://microsoft.github.io/TaskWeaver" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多文档可以在TaskWeaver 网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上找到</font><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-get-help" class="anchor" aria-hidden="true" tabindex="-1" href="#get-help"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❓寻求帮助</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❔GitHub 问题（首选）</font></font></li>
+<li><a href="https://discord.gg/Z56MXmZgMb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬 不和谐</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如需其他通信，请联系</font></font><a href="mailto:taskweaver@microsoft.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">taskweaver@microsoft.com</font></font></a></li>
+</ul>
+<hr>
+<h2 tabindex="-1" dir="auto"><a id="user-content--demo-examples" class="anchor" aria-hidden="true" tabindex="-1" href="#-demo-examples"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎬 演示示例</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示是基于</font></font><a href="https://microsoft.github.io/TaskWeaver/docs/usage/webui" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web UI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作的，这更适合显示生成的工件（例如图像）。</font><font style="vertical-align: inherit;">演示也可以在命令行界面中进行。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-1️⃣-example-1-pull-data-from-a-database-and-apply-an-anomaly-detection-algorithm" class="anchor" aria-hidden="true" tabindex="-1" href="#1️⃣-example-1-pull-data-from-a-database-and-apply-an-anomaly-detection-algorithm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1️⃣📉 示例 1：从数据库中提取数据并应用异常检测算法</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此示例中，我们将向您展示如何使用 TaskWeaver 从数据库中提取数据并应用异常检测算法。</font></font></p>
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频描述 anomaly_detection_chainlit.mp4" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">anomaly_detection_chainlit.mp4</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
 
-####  or 💻 Web UI 
-TaskWeaver also supports WebUI for demo purpose, please refers to [web UI docs](https://microsoft.github.io/TaskWeaver/docs/usage/webui) for more details.
+  <video src="https://private-user-images.githubusercontent.com/7489260/293619933-248b9a0c-d504-4708-8c2e-e004689ee8c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3NTY3NzUsIm5iZiI6MTcwNTc1NjQ3NSwicGF0aCI6Ii83NDg5MjYwLzI5MzYxOTkzMy0yNDhiOWEwYy1kNTA0LTQ3MDgtOGMyZS1lMDA0Njg5ZWU4YzYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMjBUMTMxNDM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZTBlMjM0ZGYxYTE5NzZjNmFkMjJmZjEzZThmZGNkZDQ1ZjYwZjBjZDVlMGVkOTYxYzZhMDZiMmFmM2ZhZjNhZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.f1u_tx1mDaUU3_TC9mKuAscZYRteDoj44k7caE2GIMI" data-canonical-src="https://private-user-images.githubusercontent.com/7489260/293619933-248b9a0c-d504-4708-8c2e-e004689ee8c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3NTY3NzUsIm5iZiI6MTcwNTc1NjQ3NSwicGF0aCI6Ii83NDg5MjYwLzI5MzYxOTkzMy0yNDhiOWEwYy1kNTA0LTQ3MDgtOGMyZS1lMDA0Njg5ZWU4YzYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMjBUMTMxNDM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZTBlMjM0ZGYxYTE5NzZjNmFkMjJmZjEzZThmZGNkZDQ1ZjYwZjBjZDVlMGVkOTYxYzZhMDZiMmFmM2ZhZjNhZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.f1u_tx1mDaUU3_TC9mKuAscZYRteDoj44k7caE2GIMI" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 
-#### or 📋 Import as a Library
-TaskWeaver can be imported as a library to integrate with your existing project, more information can be found in [docs](https://microsoft.github.io/TaskWeaver/docs/usage/library)
+  </video>
+</details>
 
-## 📖 Documentation
-More documentations can be found on [TaskWeaver Website](https://microsoft.github.io/TaskWeaver).
-
-
-### ❓Get help 
-* ❔GitHub Issues (prefered)
-* [💬 Discord](https://discord.gg/Z56MXmZgMb) for discussion
-* For other communications, please contact taskweaver@microsoft.com
-
----
-
-
-## 🎬 Demo Examples
-
-The demos were made based on the [web UI](https://microsoft.github.io/TaskWeaver/docs/usage/webui), which is better for displaying the generated artifacts such as images. 
-The demos could also be conducted in the command line interface. 
-
-#### 1️⃣📉 Example 1: Pull data from a database and apply an anomaly detection algorithm
-In this example, we will show you how to use TaskWeaver to pull data from a database and apply an anomaly detection algorithm.
-
-[Anomaly Detection](https://github.com/microsoft/TaskWeaver/assets/7489260/248b9a0c-d504-4708-8c2e-e004689ee8c6)
-
-If you want to follow this example, you need to configure the `sql_pull_data` plugin in the `project/plugins/sql_pull_data.yaml` file.
-You need to provide the following information:
-```yaml
-api_type: azure or openai
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想遵循此示例，则需要</font></font><code>sql_pull_data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在</font></font><code>project/plugins/sql_pull_data.yaml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中配置插件。</font><font style="vertical-align: inherit;">您需要提供以下信息：</font></font></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">api_type</span>: <span class="pl-s">azure or openai</span>
+<span class="pl-ent">api_base</span>: <span class="pl-s">...</span>
+<span class="pl-ent">api_key</span>: <span class="pl-s">...</span>
+<span class="pl-ent">api_version</span>: <span class="pl-s">...</span>
+<span class="pl-ent">deployment_name</span>: <span class="pl-s">...</span>
+<span class="pl-ent">sqlite_db_path</span>: <span class="pl-s">sqlite:///../../../sample_data/anomaly_detection.db</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="api_type: azure or openai
 api_base: ...
 api_key: ...
 api_version: ...
 deployment_name: ...
-sqlite_db_path: sqlite:///../../../sample_data/anomaly_detection.db
-```
-The `sql_pull_data` plugin is a plugin that pulls data from a database. It takes a natural language request as input and returns a DataFrame as output.
+sqlite_db_path: sqlite:///../../../sample_data/anomaly_detection.db" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该</font></font><code>sql_pull_data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">插件是一个从数据库中提取数据的插件。</font><font style="vertical-align: inherit;">它将自然语言请求作为输入并返回 DataFrame 作为输出。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.langchain.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该插件是基于Langchain</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现的</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果你想遵循这个例子，你需要安装 Langchain 包：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install langchain
+pip install tabulate</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install langchain
+pip install tabulate" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h4 tabindex="-1" dir="auto"><a id="user-content-2️⃣-example-2-forecast-qqqs-price-in-the-next-7-days" class="anchor" aria-hidden="true" tabindex="-1" href="#2️⃣-example-2-forecast-qqqs-price-in-the-next-7-days"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2️⃣🏦示例2：预测QQ未来7天的价格</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这个例子中，我们将向您展示如何使用TaskWeaver来预测QQQ未来7天内的价格。</font></font></p>
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频说明 Forecast_price_chainlit.mp4" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Forecast_price_chainlit.mp4</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
 
-This plugin is implemented based on [Langchain](https://www.langchain.com/).
-If you want to follow this example, you need to install the Langchain package:
-```bash
-pip install langchain
-pip install tabulate
-```
+  <video src="https://private-user-images.githubusercontent.com/7489260/293619976-1361ed83-16c3-4056-98fc-e0496ecab015.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3NTY3NzUsIm5iZiI6MTcwNTc1NjQ3NSwicGF0aCI6Ii83NDg5MjYwLzI5MzYxOTk3Ni0xMzYxZWQ4My0xNmMzLTQwNTYtOThmYy1lMDQ5NmVjYWIwMTUubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMjBUMTMxNDM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTE2ZWJkN2I0YTAwNzcxNjhjNzI0ZGVmZGM3MjlkNTQ1MzI4MDU2YjU4ZGUwNjM4ZmRkMzk3ODQ4NDU0ZDQxOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.mNTFwya3tCpNkG2vwAEgEW53OS4TWpjjSEFAV1wDvyU" data-canonical-src="https://private-user-images.githubusercontent.com/7489260/293619976-1361ed83-16c3-4056-98fc-e0496ecab015.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU3NTY3NzUsIm5iZiI6MTcwNTc1NjQ3NSwicGF0aCI6Ii83NDg5MjYwLzI5MzYxOTk3Ni0xMzYxZWQ4My0xNmMzLTQwNTYtOThmYy1lMDQ5NmVjYWIwMTUubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEyMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMjBUMTMxNDM1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTE2ZWJkN2I0YTAwNzcxNjhjNzI0ZGVmZGM3MjlkNTQ1MzI4MDU2YjU4ZGUwNjM4ZmRkMzk3ODQ4NDU0ZDQxOSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.mNTFwya3tCpNkG2vwAEgEW53OS4TWpjjSEFAV1wDvyU" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 
-#### 2️⃣🏦 Example 2: Forecast QQQ's price in the next 7 days
-In this example, we will show you how to use TaskWeaver to forecast QQQ's price in the next 7 days. 
+  </video>
+</details>
 
-[Nasdaq 100 Index Price Forecasting](https://github.com/microsoft/TaskWeaver/assets/7489260/1361ed83-16c3-4056-98fc-e0496ecab015)
-
-If you want to follow this example, you need to you have two requirements installed:
-```bash
-pip install yfinance
-pip install statsmodels
-```
-
-For more examples, please refer to our [paper](http://export.arxiv.org/abs/2311.17541). 
-
-> 💡 The planning of TaskWeaver are based on the LLM model. Therefore, if you want to repeat the examples, the execution process may be different
-> from what you see in the videos. For example, in the second demo, the assistant may ask the user which prediction algorithm should be used.
-> Typically, more concrete prompts will help the model to generate better plans and code.
-
-
-## 📚 Citation
-Our paper could be found [here](http://export.arxiv.org/abs/2311.17541). 
-If you use TaskWeaver in your research, please cite our paper:
-```
-@article{taskweaver,
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想遵循此示例，则需要安装两个要求：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install yfinance
+pip install statsmodels</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install yfinance
+pip install statsmodels" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关更多示例，请参阅我们的</font></font><a href="http://export.arxiv.org/abs/2311.17541" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💡 TaskWeaver 的规划是基于LLM 模型。</font><font style="vertical-align: inherit;">因此，如果您想重复示例，执行过程可能与您在视频中看到的不同。</font><font style="vertical-align: inherit;">例如，在第二个演示中，助手可能会询问用户应该使用哪种预测算法。</font><font style="vertical-align: inherit;">通常，更具体的提示将帮助模型生成更好的计划和代码。</font></font></p>
+</blockquote>
+<h2 tabindex="-1" dir="auto"><a id="user-content--citation" class="anchor" aria-hidden="true" tabindex="-1" href="#-citation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📚 引文</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://export.arxiv.org/abs/2311.17541" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的论文可以在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">找到</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">如果您在研究中使用 TaskWeaver，请引用我们的论文：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>@article{taskweaver,
   title={TaskWeaver: A Code-First Agent Framework},
   author={Bo Qiao, Liqun Li, Xu Zhang, Shilin He, Yu Kang, Chaoyun Zhang, Fangkai Yang, Hang Dong, Jue Zhang, Lu Wang, Minghua Ma, Pu Zhao, Si Qin, Xiaoting Qin, Chao Du, Yong Xu, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang},
   journal={arXiv preprint arXiv:2311.17541},
   year={2023}
 }
-```
-
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
-
-## Disclaimer
-The recommended models in this Repo are just examples, used to explore the potential of agent systems with the paper at [TaskWeaver: A Code-First Agent Framework](https://export.arxiv.org/abs/2311.17541). Users can replace the models in this Repo according to their needs. When using the recommended models in this Repo, you need to comply with the licenses of these models respectively. Microsoft shall not be held liable for any infringement of third-party rights resulting from your usage of this repo. Users agree to defend, indemnify and hold Microsoft harmless from and against all damages, costs, and attorneys' fees in connection with any claims arising from this Repo. If anyone believes that this Repo infringes on your rights, please notify the project owner email.
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@article{taskweaver,
+  title={TaskWeaver: A Code-First Agent Framework},
+  author={Bo Qiao, Liqun Li, Xu Zhang, Shilin He, Yu Kang, Chaoyun Zhang, Fangkai Yang, Hang Dong, Jue Zhang, Lu Wang, Minghua Ma, Pu Zhao, Si Qin, Xiaoting Qin, Chao Du, Yong Xu, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang},
+  journal={arXiv preprint arXiv:2311.17541},
+  year={2023}
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-trademarks" class="anchor" aria-hidden="true" tabindex="-1" href="#trademarks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商标</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目可能包含项目、产品或服务的商标或徽标。</font><font style="vertical-align: inherit;">Microsoft 商标或徽标的授权使用须遵守且必须遵循
+</font></font><a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Microsoft 的商标和品牌指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">在此项目的修改版本中使用 Microsoft 商标或徽标不得引起混淆或暗示 Microsoft 赞助。</font><font style="vertical-align: inherit;">对第三方商标或徽标的任何使用均须遵守这些第三方的政策。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-disclaimer" class="anchor" aria-hidden="true" tabindex="-1" href="#disclaimer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免责声明</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本 Repo 中推荐的模型只是示例，用于通过</font></font><a href="https://export.arxiv.org/abs/2311.17541" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TaskWeaver: A Code-First Agent Framework</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中的论文探索代理系统的潜力。</font><font style="vertical-align: inherit;">用户可以根据自己的需要更换本Repo中的模型。</font><font style="vertical-align: inherit;">使用本Repo推荐的模型时，需要分别遵守这些模型的License。</font><font style="vertical-align: inherit;">对于因您使用此存储库而导致的任何第三方权利侵权，Microsoft 不承担任何责任。</font><font style="vertical-align: inherit;">用户同意对与本存储库引起的任何索赔相关的所有损害、费用和律师费进行辩护、赔偿并使 Microsoft 免受损害。</font><font style="vertical-align: inherit;">如果有人认为此 Repo 侵犯了您的权利，请通知项目所有者电子邮件。</font></font></p>
+</article></div>
